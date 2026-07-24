@@ -32,3 +32,9 @@ console.log(functionConst); // Throws ReferenceError
 
 // console.log(blockVar);
 // console.log(blockLet);
+
+function rest() {
+    var functionVar1 = "Hi";
+    let functionLet1 = "Hello";
+    const functionConst1 = "World";
+}
