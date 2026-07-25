@@ -25,5 +25,11 @@ function checkCountValue () {
     }
 }
 
+function resetCount(){
+    count = 0;
+    displayCount();
+    alert("Your instagram post has been reset to 0 followers!")
+}
+
 
 
