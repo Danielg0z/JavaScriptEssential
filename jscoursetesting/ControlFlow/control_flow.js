@@ -26,6 +26,7 @@ if(isLoggedIn) {
 
 console.log("User Message :", userMessage); 
 
+//conditional statement practice
 
 let userType = "manager";
 let userCategory;
@@ -42,6 +43,7 @@ switch (userType) {
 }
 console.log("User Category :", userCategory);
 
+//ternary operator practice
 let isAuthenticated = true;
 let authenticaitonStatus =  isAuthenticated ? "User is authenticated" : "Not authenticated";
 
